@@ -8,10 +8,10 @@ Original file is located at
 """
 
 #Weather modelling using quadratic equations
-a = 5
-b = 4
-c = 2
-x = 2
+a = float(input("Enter the Value of a"))
+b = float(input("Enter the Value of b"))
+c = float(input("Enter the Value of c"))
+x = float(input("Enter the Value of x"))
 
 y = a*(x*x) + b *x + c
 
